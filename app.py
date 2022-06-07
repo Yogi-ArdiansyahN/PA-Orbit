@@ -11,6 +11,11 @@ import csv
 app = Flask(__name__)
 
 
+@app.route('/')
+def main() :
+    return render_template('index.html')
+
+
 def gen_frames():  
 
     engine = textSpeach.init()
@@ -92,9 +97,6 @@ def gen_frames():
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-@app.route('/')
-def main() :
-    return render_template('index.html')
 
 @app.route('/facedetection')
 def facede() : 
