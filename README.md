@@ -1,9 +1,9 @@
 # PA-Orbit
 
-#create folder .venv
+#create folder venv or .venv
 
 #Install Virtualenv Terlebih dahulu "virtualenv env/venv"
 
-#Lalu masuk ke "env/Scripts/activate.bat"
+#Lalu masuk ke "venv/Scripts/activate"
 
-#Selanjutnya install Requirements nya
+#Selanjutnya install Requirements nya "py -m pip install requests
