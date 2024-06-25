@@ -1,5 +1,7 @@
 # PA-Orbit
 
+#siapkan Visual Studio C++/C#
+
 #create folder .venv
 
 #Install Virtualenv Terlebih dahulu "virtualenv env/.venv"
